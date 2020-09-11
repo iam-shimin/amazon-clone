@@ -27,10 +27,10 @@ export default function Search() {
 
 	return (
 		<form className="search-box" onSubmit={handleSearch}>
-			<input type="search" placeholder="Search Amazon.in" onChange={handleKeystroke} value={search} id="q"/>
+			<input type="search" placeholder="Search Amazon.in" onChange={handleKeystroke} value={search} id="q" aria-label="Search here" />
 			<button type="button" className={`btn-search-clear${clearButtonCSSState}`} onClick={handleSearchClear}>x</button>
 			<button className="search-icon">
-				<IconSprites width="27px" height="25px" position="-73px -239px" />
+				<IconSprites as="span" width="27px" height="25px" position="-73px -239px" style={{display: 'block'}} />
 			</button>
 		</form>
 	)

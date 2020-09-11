@@ -8,13 +8,13 @@ import IconSprites from 'components/iconSprites';
 
 export default function HeaderMain(props) {
 	return (
-		<div id="header-main">
+		<section id="header-main">
 			<Hamburger />
 			<Logo />
 			<SignIn />
 			<Cart />
 			<Search />
-		</div>
+		</section>
 	)
 }
 
@@ -27,7 +27,7 @@ function SignIn() {
 function Cart() {
 	return (
 		<IconSprites height="27px" width="37px" position="-10px -240px" style={{position: 'relative'}}>
-			<span className="cart-icon">0</span>
+			<span className="cart-icon" aria-role="presentation">0</span>
 		</IconSprites>
 	)
 }
