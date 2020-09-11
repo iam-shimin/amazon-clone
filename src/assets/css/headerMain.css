@@ -21,7 +21,8 @@
 	padding: 0.3rem;
 }
 
-.nav-link:hover, .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
 	text-decoration: underline;
 }
 
@@ -30,4 +31,34 @@
 	bottom: 40%;
 	right: 25%;
 	color: orange;
+}
+
+.minimal .logo {
+	display: none;
+}
+
+.minimal .nav-link {
+	display: none;
+}
+
+.minimal .search-box {
+	width: 50%;
+	order: 0;
+}
+
+.minimal .hamburger-icon {
+	order: 0;
+	margin-top: 3%;
+}
+
+.minimal .search-box {
+	width: 82%;
+	order: 1;
+	margin-left: 2%;
+}
+
+.minimal .cart-icon-body {
+	margin-left: auto;
+	order: 2;
+	margin-top: 2%;
 }

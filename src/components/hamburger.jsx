@@ -3,6 +3,6 @@ import IconSprites from './iconSprites';
 
 export default function Hamburger() {
 	return (
-		<IconSprites position="-20px -378px" />
+		<IconSprites className="hamburger-icon" position="-20px -378px" />
 	);
 }

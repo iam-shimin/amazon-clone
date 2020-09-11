@@ -8,7 +8,8 @@ export default function IconSprites({
 	position: backgroundPosition = '0px 0px',
 	height = '20px',
 	width = '20px',
-	children
+	children,
+	...props
 }) {
 
 	const Wrapper = as;
@@ -22,5 +23,5 @@ export default function IconSprites({
 		backgroundRepeat: 'no-repeat',
 	};
 
-	return <Wrapper style={backgroundStyle}>{children}</Wrapper>;
+	return <Wrapper {...props} style={backgroundStyle}>{children}</Wrapper>;
 }
