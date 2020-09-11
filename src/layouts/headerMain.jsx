@@ -4,6 +4,7 @@ import Logo from 'components/logo';
 import Search from 'components/search';
 
 import 'assets/headerMain.css';
+import IconSprites from 'components/iconSprites';
 
 export default function HeaderMain(props) {
 	return (
@@ -25,6 +26,8 @@ function SignIn() {
 
 function Cart() {
 	return (
-		<a href="#cart" className="nav-link">Cart</a>
+		<IconSprites height="27px" width="37px" position="-10px -240px" style={{position: 'relative'}}>
+			<span className="cart-icon">0</span>
+		</IconSprites>
 	)
 }

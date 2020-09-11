@@ -42,12 +42,17 @@ input[type="search"]::-webkit-search-results-decoration {
 	background: #fff;
 }
 
+.search-box:focus {
+	border: solid 2px orange;
+}
+
 #q {
 	flex: 10;
 	font-size: 0.95rem;
 	padding: 0.8rem;
 	border-radius: 8px;
 	border: none;
+	outline: none;
 }
 
 .search-icon {

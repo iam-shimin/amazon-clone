@@ -21,7 +21,8 @@ export default function Search() {
 	function handleSearchClear(event) {
 		const inputField = event.currentTarget.parentElement['q'];
 		setSearch('');
-		inputField?.focus();
+		if (inputField)
+			inputField.focus();
 	}
 
 	return (

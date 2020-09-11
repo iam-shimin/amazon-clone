@@ -24,3 +24,10 @@
 .nav-link:hover, .nav-link:focus {
 	text-decoration: underline;
 }
+
+.cart-icon {
+	position: absolute;
+	bottom: 40%;
+	right: 25%;
+	color: orange;
+}
