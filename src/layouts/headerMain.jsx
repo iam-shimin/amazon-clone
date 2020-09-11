@@ -3,7 +3,7 @@ import Hamburger from 'components/hamburger';
 import Logo from 'components/logo';
 import Search from 'components/search';
 
-import 'assets/headerMain.css';
+import 'assets/css/headerMain.css';
 
 export default function HeaderMain(props) {
 	return (

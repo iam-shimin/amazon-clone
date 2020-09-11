@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import IconSprites from './iconSprites';
 
-import 'assets/search.css';
+import 'assets/css/search.css';
 
 export default function Search() {
 	const [search, setSearch] = useState('');
@@ -21,7 +21,7 @@ export default function Search() {
 	function handleSearchClear(event) {
 		const inputField = event.currentTarget.parentElement['q'];
 		setSearch('');
-		inputField?.focus();
+		inputField.focus();
 	}
 
 	return (
