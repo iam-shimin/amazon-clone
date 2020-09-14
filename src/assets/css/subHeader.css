@@ -1,0 +1,50 @@
+.subHeader{
+    /* font-size:0px; */
+    padding:0px;
+    margin:0px;
+    border:none;
+}
+.subHeader .selectLocation{
+    background-color: #37475A;
+    height: 44px;
+    width: 100%;
+    padding: 12px 10px 12px 10px;
+    box-sizing: border-box;
+    color:#fff;
+}
+.selectLocation span{
+    clear: both;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+.selectLocation .setLocation{
+    width: 100%;
+}
+
+.selectOptions{
+    max-width:100vw;
+    border: none;
+}
+.selectOptions .options{
+    width:100%;
+    display:flex;
+    overflow-y: hidden;
+    overflow-x:scroll;
+}
+.options .option{
+    margin:10px 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.option .optionImage{
+    border-radius: 50%;
+    width:45px;
+    height:45px;
+}
+.option label{
+    font-size: 11px;
+    line-height: 14px;
+}
