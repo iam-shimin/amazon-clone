@@ -2,7 +2,7 @@ import React from 'react';
 import sprite from 'assets/images/amazon-sprite-icons.png'
 
 export default function IconSprites({
-	as = 'div',
+	as: Wrapper = 'div',
 	style = {},
 	size: backgroundSize = '275px',
 	position: backgroundPosition = '0px 0px',
@@ -12,7 +12,6 @@ export default function IconSprites({
 	...props
 }) {
 
-	const Wrapper = as;
 	const backgroundStyle = {
 		height,
 		width,
