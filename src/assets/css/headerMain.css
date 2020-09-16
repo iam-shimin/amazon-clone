@@ -48,7 +48,7 @@
 
 .minimal .hamburger-icon {
 	order: 0;
-	margin-top: 3%;
+	align-self: center;
 }
 
 .minimal .search-box {
@@ -60,5 +60,5 @@
 .minimal .cart-icon-body {
 	margin-left: auto;
 	order: 2;
-	margin-top: 2%;
+	align-self: center;
 }

@@ -27,7 +27,7 @@ function SignIn() {
 function Cart() {
 	return (
 		<IconSprites className="cart-icon-body" height="27px" width="37px" position="-10px -240px" style={{position: 'relative'}}>
-			<span className="cart-icon" aria-role="presentation">0</span>
+			<span className="cart-icon">0</span>
 		</IconSprites>
 	)
 }
