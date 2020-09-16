@@ -1,14 +1,14 @@
 import React from 'react';
-import Hamburger from 'components/hamburger';
-import Logo from 'components/logo';
-import Search from 'components/search';
+import Hamburger from 'app/components/hamburger';
+import Logo from 'app/components/logo';
+import Search from 'app/components/search';
 
-import IconSprites from 'components/iconSprites';
-import 'assets/css/headerMain.css';
+import IconSprites from 'app/components/iconSprites';
+import 'assets/scss/headerMain.scss';
 
 export default function HeaderMain(props) {
 	return (
-		<section id="header-main">
+		<section className="header-main">
 			<Hamburger />
 			<Logo />
 			<SignIn />
@@ -20,14 +20,14 @@ export default function HeaderMain(props) {
 
 function SignIn() {
 	return (
-		<a href="#sign-in" className="m-left-auto nav-link">Sign In</a>
+		<a href="#sign-in" className="m-left-auto nav-link sign-in">Sign In</a>
 	)
 }
 
 function Cart() {
 	return (
 		<IconSprites className="cart-icon-body" height="27px" width="37px" position="-10px -240px" style={{position: 'relative'}}>
-			<span className="cart-icon" aria-role="presentation">0</span>
+			<span className="cart-icon">0</span>
 		</IconSprites>
 	)
 }

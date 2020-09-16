@@ -1,0 +1,85 @@
+.header-main {
+	display: flex;
+	background-color: #232F3E;
+	padding:5px 10px 5px 10px;
+	flex-wrap: wrap;
+	align-items: center;
+	.hamburger-icon{
+		margin-left:4px;
+		margin-top:2px;
+	}
+	.sign-in{
+		font-size: 13px;
+	}
+}
+
+.nav-logo {
+	margin-left: 14px;
+	padding-top:8px;
+	display: flex;
+	span{
+		margin: 1px 0 0 1px;
+		font-size: 13.5px;
+		color: #fff;
+		line-height: 14px;
+	}
+}
+
+.nav-logo-locale {
+	color: #fff;
+	line-height: 15px;
+}
+
+.nav-link {
+	color: #fff;
+	text-decoration: none;
+	padding-bottom: 6px;
+    padding-right: 12px;
+	&:focus, &:hover{
+		text-decoration: underline;
+	}
+}
+
+.cart-icon-body{
+	text-align:center;
+	margin-right:8px;
+	.cart-icon {
+		position: fixed;
+		top: 3px;
+		right: 29px;
+		font-weight:700;
+		font-size: 17px;
+		color: #f90;
+	}
+}
+
+.minimal{
+	.logo {
+		display: none;
+	}
+	
+	.nav-link {
+		display: none;
+	}
+	
+	.search-box {
+		width: 50%;
+		order: 0;
+	}
+	
+	.hamburger-icon {
+		order: 0;
+	}
+	
+	.search-box {
+		width: 82%;
+		order: 1;
+		margin-left: 2%;
+	}
+	
+	.cart-icon-body {
+		margin-left: auto;
+		order: 2;
+	}
+}
+

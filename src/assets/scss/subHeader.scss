@@ -1,0 +1,23 @@
+.subHeader{
+    background-color: #37475A;
+    padding: 12px 10px 12px 15px;
+    color:#fff;
+    box-sizing: border-box;
+    height: 44px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    i{
+        font-size: 20px;
+    margin-right: 5px;
+    }
+    span{
+        font-size: 13px;
+        line-height: 20px;
+        font-family: inherit;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}

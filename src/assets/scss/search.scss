@@ -21,6 +21,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .search-box {
 	width: 100%;
+	margin-top:10px;
 	border-radius: 8px;
 	position: relative;
 }
@@ -31,29 +32,43 @@ input[type="search"]::-webkit-search-results-decoration {
 	color: #888;
 	font-size: 1rem;
 	background: #fff;
-}
-
-.btn-search-clear.show {
-	display: unset;
+	.show {
+		display: unset;
+	}
 }
 
 .search-box {
 	display: flex;
 	background: #fff;
+	height:44px;
+	input {
+		flex: 10;
+		padding: 12px 10px;
+		border-radius: 8px;
+		border: none;
+		outline: none;
+		color: #000;
+		font-size: 15px;
+		font-family: inherit;
+		outline: 0;
+		line-height: 1em;
+		outline-width: 0;
+	}
+	&:focus,&:hover{
+		input{
+			border: solid 2px orange;
+		}
+	}
+	.search-icon{
+		width: 50px;
+		height:100%;
+		i{
+			font-size: 25px;
+		}
+	}
 }
 
-.search-box:focus {
-	border: solid 2px orange;
-}
 
-#q {
-	flex: 10;
-	font-size: 0.95rem;
-	padding: 0.8rem;
-	border-radius: 8px;
-	border: none;
-	outline: none;
-}
 
 .search-icon {
 	background: -webkit-linear-gradient(top, #fcbb6a, #fcbb6a);

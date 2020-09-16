@@ -1,14 +1,9 @@
-import React from'react';
-import '../assets/css/subHeader.css';
-
-export default function SubHeaderMain(props) {
-	return (
-		<div className="subHeader">
-            <div className="selectLocation">
-				<i className="fas fa-map-marker-alt"></i>
-				<span> Select a location to see product availability </span>
-			</div>
-			<div className="selectOptions">
+import React from 'react'
+import 'assets/scss/subOptions.scss';
+export default function SubOptions() {
+    return (
+        <section>
+            <div className="selectOptions">
 				<div className="options">
 					<div className="option">
 						<div className="optionImage"><img src="https://m.media-amazon.com/images/I/0132mRfvTkL._SS70_.png" width="45px" alt="prime" /></div>
@@ -44,6 +39,6 @@ export default function SubHeaderMain(props) {
 					</div>					
 				</div>	
 			</div>
-		</div>
-	)
+        </section>
+    )
 }
