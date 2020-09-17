@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import IconSprites from './iconSprites';
+// import IconSprites from './iconSprites';
 
 import 'assets/scss/search.scss';
 
@@ -30,7 +30,7 @@ export default function Search() {
 			<input type="search" placeholder="Search Amazon.in" onChange={handleKeystroke} value={search} id="q" aria-label="Search here" />
 			<button type="button" className={`btn-search-clear${clearButtonCSSState}`} onClick={handleSearchClear}>x</button>
 			<button className="search-icon">
-			<i class="fa fa-fw fa-search"></i>
+			<i className="fa fa-fw fa-search"></i>
 				{/* <IconSprites as="span" width="27px" height="25px" position="-73px -239px" style={{display: 'block'}} /> */}
 			</button>
 		</form>
