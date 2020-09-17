@@ -1,9 +1,9 @@
 import React from 'react';
-import Hamburger from 'app/components/hamburger';
-import Logo from 'app/components/logo';
-import Search from 'app/components/search';
+import Hamburger from 'components/hamburger';
+import Logo from 'components/logo';
+import Search from 'components/search';
 
-import IconSprites from 'app/components/iconSprites';
+import IconSprites from 'components/iconSprites';
 import 'assets/scss/headerMain.scss';
 
 export default function HeaderMain(props) {

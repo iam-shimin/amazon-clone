@@ -8,7 +8,7 @@ import fashion from'assets/images/options/fashion.jpg'
 import home from'assets/images/options/home.jpg'
 import appliances from'assets/images/options/appliances.jpg'
 import electronics from'assets/images/options/electronics.jpg'
-import WidgetOptions from 'app/components/widgetOptions';
+import WidgetOptions from 'components/widgetOptions';
 
 export default function SubOptions() {
 	const options=[

@@ -1,5 +1,5 @@
 import React from 'react';
-import SubOptions from 'app/pages/subOptions';
+import SubOptions from 'pages/subOptions';
 
 export default function HomePage(props) {
 	return (
