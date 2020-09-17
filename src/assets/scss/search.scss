@@ -32,9 +32,10 @@ input[type="search"]::-webkit-search-results-decoration {
 	color: #888;
 	font-size: 1rem;
 	background: #fff;
-	.show {
-		display: unset;
-	}
+}
+
+.btn-search-clear.show {
+	display: unset;
 }
 
 .search-box {
