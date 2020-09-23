@@ -42,8 +42,6 @@ input[type="search"]::-webkit-search-results-decoration {
 	display: flex;
 	background: #fff;
 	height:44px;
-	padding-left:2px;
-	// border: solid 2px transparent; // added this
 	input {
 		flex: 10;
 		padding: 12px 10px;
@@ -57,10 +55,7 @@ input[type="search"]::-webkit-search-results-decoration {
 		outline-width: 0;
 	}
 	&:focus-within,&:hover{
-		padding-left:0px;
-		input{
-		border:2px solid orange; // changed
-		}
+		box-shadow: 0px 0px 0px 2px orange;
 	}
 	.search-icon{
 		width: 50px;
