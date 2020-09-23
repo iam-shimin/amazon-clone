@@ -42,7 +42,8 @@ input[type="search"]::-webkit-search-results-decoration {
 	display: flex;
 	background: #fff;
 	height:44px;
-	border: solid 2px transparent; // added this
+	padding-left:2px;
+	// border: solid 2px transparent; // added this
 	input {
 		flex: 10;
 		padding: 12px 10px;
@@ -52,14 +53,14 @@ input[type="search"]::-webkit-search-results-decoration {
 		color: #000;
 		font-size: 15px;
 		font-family: inherit;
-		outline: 0;
 		line-height: 1em;
 		outline-width: 0;
 	}
 	&:focus-within,&:hover{
-		// input{
-		border-color: orange; // changed
-		// }
+		padding-left:0px;
+		input{
+		border:2px solid orange; // changed
+		}
 	}
 	.search-icon{
 		width: 50px;
