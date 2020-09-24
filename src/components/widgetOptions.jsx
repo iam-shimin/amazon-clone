@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function WidgetOptions({ as: Wrapper = 'div',className, width, image, label}) {
+export default function WidgetOptions({ as: Wrapper = 'div',className, image, label}) {
     return (
     <Wrapper className={className} >
-        <img src={image} width={width} alt="" />
+        <img src={image} alt="" />
         <label>{label}</label>
     </Wrapper>
     );
