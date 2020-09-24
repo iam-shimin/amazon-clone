@@ -11,9 +11,10 @@ export function Slide({
 }
 
 function Controlls({count: length}) {
+	// ⭕
 	return (
 		<div className="carousal-controlls">
-			{Array.from({length}, () => <button>o</button>)}
+			{Array.from({length}, () => <button>⚫</button>)}
 		</div>
 	);
 }
