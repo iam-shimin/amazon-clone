@@ -24,7 +24,7 @@ export default function SubOptions() {
     return (
         <section className="selectOptions">
 				<div className="options">
-					{options.map(({key,image,label}) => <WidgetOptions key={key} image={image} label={label} className = "option" width="45px" />)}
+					{options.map(({key,image,label}) => <WidgetOptions key={key} image={image} label={label} className = "option" />)}
 				</div>	
         </section>
     )

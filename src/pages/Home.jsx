@@ -1,5 +1,5 @@
 import React from 'react';
-import SubOptions from 'pages/subOptions';
+import SubOptions from 'layouts/subOptions';
 import Carousal, { Slide } from 'components/carousal';
 
 export default function HomePage(props) {
