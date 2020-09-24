@@ -18,7 +18,25 @@ div.carousal-slide:nth-child(3) {
 	width: 100%;
 	flex: 100%;
 	flex-shrink: 0;
-	height: 6rem;
+	position: absolute;
+	transition: transform 0.3s;
+}
+
+.next, .carousal-slide {
+	transform: translate(100%);
+}
+
+.prev {
+	transform: translate(-100%);
+}
+
+.active {
+	transform: translate(0%);
+}
+
+.carousal-slide,
+.carousal-slide-list {
+	min-height: 6rem;
 }
 
 .carousal-slide-list {
