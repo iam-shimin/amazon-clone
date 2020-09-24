@@ -1,5 +1,7 @@
 import React, {Children} from 'react';
 
+import 'assets/scss/carousal.scss';
+
 export function Slide({
 	as: Wrapper = 'div',
 	children,

@@ -1,0 +1,42 @@
+div.carousal-slide:nth-child(1) {
+	background: red;
+}
+
+div.carousal-slide:nth-child(2) {
+	background: blue;
+}
+
+div.carousal-slide:nth-child(3) {
+	background: green;
+}
+
+.carousal-slide-list {
+	display: flex;
+}
+
+.carousal-slide {
+	width: 100%;
+	flex: 100%;
+	flex-shrink: 0;
+	height: 6rem;
+}
+
+.carousal-slide-list {
+	width: 100%;
+	overflow: hidden;
+}
+
+.carousal-controlls {
+	position: absolute;
+}
+
+.carousal {
+	position: relative;
+}
+
+.carousal-controlls {
+	bottom: 0.5rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
